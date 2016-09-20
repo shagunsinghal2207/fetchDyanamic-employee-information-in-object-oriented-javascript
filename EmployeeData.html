@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<h1>Employee</h1>
+		<link rel="stylesheet" type="text/css" href="Style.css">		
+		<script  type="text/javascript" src="Src/Model/Employee.json"></script>
+		<script  type="text/javascript" src="Src/Service/jsonService.js"></script>	
+		<script  type="text/javascript" src="Src/View/View.js"></script>		
+		<script  type="text/javascript" src="Src/Controller/Controller.js"></script>
+		
+		<script type="text/javascript">		
+			function load(){				
+				var controller=new Controller();            //Controller object
+				controller.init();
+			}	
+			function onLoad(){				
+				var controller=new Controller();            //Controller object
+				controller.loadTable();
+			}			
+		</script>
+	</head>
+	<body  onload="onLoad()">	
+		<div id="employeeInput">			 
+			<span>Enter Name: 
+				<input type="text" name="EmployeeName" id="employeeTxt">
+				<input type="submit" value="Submit" onclick="load()"> 
+			</span>			
+		</div>
+		&nbsp;
+		<div id="employeeDiv" style="width:700px;">	
+			<table id="employeeTabel" style="width:700px;">			
+			</table>
+		</div>		
+	</body >
+</html>

@@ -1,0 +1,27 @@
+.parent {
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #0A416B;
+    clear:both;
+}
+.left, .center, .right{	
+	height: 20px;   
+	/*display: inline-flex;*/
+
+}
+.Item{
+ 	width: 300px; 
+ 	height: 300px; 
+ 	border:1px solid #CEDCEA;
+}
+.text{
+ 	width: 300px; 
+ 
+}
+.header{
+	border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: #dddddd;
+}
+

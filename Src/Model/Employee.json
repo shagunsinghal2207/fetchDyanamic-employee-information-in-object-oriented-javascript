@@ -1,0 +1,37 @@
+employeeData = [{
+    "id": "1",
+    "name": "sushil",
+    "Designation": "Consultant",
+    "Salary": "120000",
+    "Band": "A",
+    "Project": "Kastel"
+	
+}, {
+    "id": "2",
+    "name": "rahul",
+    "Designation": "Software Engg",
+    "Salary": "100000",
+    "Band": "X",
+    "Project": "Innovative"
+}, {
+    "id": "3",
+    "name": "sanjeev",
+    "Designation": "Engg",
+    "Salary": "50000",
+    "Band": "A1",
+    "Project": "Kastelinterface"
+}, {
+    "id": "4",
+    "name": "alok",
+    "Designation": "Consultant",
+    "Salary": "1200000",
+    "Band": "A5",
+    "Project": "Text"
+}, {
+    "id": "5",
+    "name": "rajeev",
+    "Designation": "Consultant",
+    "Salary": "130000",
+    "Band": "A4",
+    "Project": "Cloud"
+}]
